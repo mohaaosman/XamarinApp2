@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="clr-namespace:InTheHand.Forms;assembly=InTheHand.Forms"
+             mc:Ignorable="d"
+             x:Class="XamarinApp2.Views.MediaPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <forms:MediaElement Grid.Row="0"  HorizontalOptions="Fill" VerticalOptions="Center" 
+                                HeightRequest="240" x:Name="Media" AreTransportControlsEnabled="true"
+                                Source="https://sec.ch9.ms/ch9/b4ca/4e3d3cb1-4345-467b-9dc7-9fdcc9f6b4ca/VS2017_high.mp4"/>
+            <forms:MediaElement Grid.Row="0"  HorizontalOptions="Fill" VerticalOptions="Center" 
+                                HeightRequest="240" x:Name="MediaLocal" AreTransportControlsEnabled="true"
+                                Source="Assets/video.mp4"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="clr-namespace:InTheHand.Forms;assembly=InTheHand.Forms"
+             mc:Ignorable="d"
+             Title="Xamrin App 2"
+             x:Class="XamarinApp2.MainPage">
+
+    <StackLayout Padding="110">
+        <Button Text="Media Page" Clicked="Button_Clicked" BackgroundColor="Transparent" BorderColor="SteelBlue" TextColor="SteelBlue" VerticalOptions="CenterAndExpand"/>
+        <Button Text="Http Request Page" Clicked="Button_Clicked_1" BackgroundColor="Black" BorderColor="White" TextColor="White" VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
